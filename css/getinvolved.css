@@ -69,5 +69,24 @@ h1{
 .cam{
      border-radius: 5px;
      height:500px;
-     width:700px;
+     width:600px;
 }
+.socialmedia{
+     display: flex;
+      flex-direction: row; 
+      flex-wrap: wrap; 
+      margin-top: 130px; 
+      margin-left: -280px;
+     }
+     .sicon{
+          height: 25px; 
+          padding: 10px; 
+          cursor: pointer;
+     }
+.copyright{
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+     color: #f2f7f5; 
+     margin-top: 195px; 
+     margin-left: -210px;
+}
+.socialmediaicon:hover{transform: scale(1.2);}
