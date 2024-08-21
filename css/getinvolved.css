@@ -141,6 +141,6 @@ h3{
 }
 .newcontainer{
      display: flex;
-     border: 5px;
-     background-color: #333;
+     border: 6px;
+     background-color:#00473e;
 }
