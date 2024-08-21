@@ -135,3 +135,12 @@ footer{
 .box4{
      font-size: 30px;
 }
+h3{
+     font-size: 40px;
+     color: red;
+}
+.newcontainer{
+     display: flex;
+     border: 5px;
+     background-color: rgb(152, 198, 238);
+}
