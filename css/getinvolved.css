@@ -6,7 +6,8 @@
 }
 
 .text{
-     background-color:aquamarine;
+     background-color:#00473e;
+     font-size: 30px;
      padding: 20px;
      margin: 0;
      font-size: 25px;
@@ -69,5 +70,77 @@ h1{
 .cam{
      border-radius: 5px;
      height:500px;
-     width:700px;
+     width:600px;
+}
+
+h2{
+     font-size: 40px;
+     
+}
+header h1{
+     margin:0;
+     font-size: 2.5em;
+}
+nav ul{
+padding: 0;
+margin: 0;
+list-style: none;
+text-align: center;
+}
+nav ul li{
+     display: inline;
+     margin: 0 15px;
+
+}
+nav ul li a{
+     color:#fff;
+     text-decoration: none;
+     font-weight: bold;
+}
+.section{
+     padding: 20px;
+     text-align: center;
+
+}
+h2{
+     color:black;
+     margin-bottom: 10px;
+}
+ul{
+     list-style: none;
+     padding: 0;
+}
+ul li{
+     margin: 10px 0;
+}
+footer{
+
+     color:#fff;
+     padding: 20px;
+     text-align: center;
+     margin-top: 20px;
+
+}
+.box1{
+     font-size: 20px;
+
+}
+.box2{
+     font-size: 30px;
+}
+.box3{
+     font-size: 30px;
+
+}
+.box4{
+     font-size: 30px;
+}
+h3{
+     font-size: 40px;
+     color: red;
+}
+.newcontainer{
+     display: flex;
+     border: 5px;
+     background-color: rgb(152, 198, 238);
 }
