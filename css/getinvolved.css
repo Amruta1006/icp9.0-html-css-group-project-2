@@ -48,7 +48,7 @@ h1{
 .containerimg{
      display: flex;
      border: 5px;
-     background-color: rgb(152, 198, 238);
+     background-color: #00473e;
 }
 .text1{
      font-size:20px;
@@ -142,5 +142,5 @@ h3{
 .newcontainer{
      display: flex;
      border: 5px;
-     background-color: rgb(152, 198, 238);
+     background-color: #333;
 }
