@@ -58,7 +58,7 @@ h1{
 .box{
      display: flex;
      border: 5px;
-     background-color: rgb(152, 198, 238);
+     background-color: #00473e;
 }
 .container2{
      border-radius: 5px;
