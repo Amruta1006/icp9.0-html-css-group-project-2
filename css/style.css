@@ -1,64 +1,53 @@
-/* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #00473e; /* Custom Dark Green */
-    background-color: #f2f7f5; /* Light Background */
+    color: #00473e; 
+    background-color: #f2f7f5; 
 }
-
-/* Header */
 header {
-    background: #f2f7f5; /* Light Background */
-    color: #00473e; /* Custom Dark Green */
+    background: #f2f7f5; 
+    color: #00473e; 
     padding: 10px 20px;
-    border-bottom: #A6B1E1 3px solid; /* Soft Lavender */
+    border-bottom: #A6B1E1 3px solid; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-
-/* Flexbox for header content */
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-/* Logo */
 header .logo img {
     height: 100px;
     width: 200px;
     margin-right: 20px;
 }
-
-/* Navigation */
 header nav {
     display: flex;
-    gap: 10px;
+    gap: ;
 }
 
 header nav a button {
-    background: #00473e; /* Soft Lavender */
-    color: #f2f7f5; /* Light Background */
+    background: #00473e; 
+    color: #f2f7f5; 
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s, color 0.3s;
-}
 
+}
 header nav a button:hover {
-    background-color: #475d5b; /* Light Background */
-    color:#f2f7f5 ; /* Custom Dark Green */
+    background-color: #475d5b; 
+    color:#f2f7f5 ; 
 }
 
-/* Search Bar */
 header .search-bar {
     display: flex;
     align-items: center;
 }
-
 header .search-bar img {
     cursor: pointer;
     height: 20px;
@@ -69,7 +58,6 @@ header .search-bar img {
     align-items: center;
     cursor: pointer;
 }
-
 #search-input {
     padding: 5px;
     font-size: 16px;
@@ -79,13 +67,13 @@ header .search-bar img {
 }
 
 #search-input.active {
-    width: 200px; /* Adjust the width as needed */
+    width: 200px; 
     opacity: 1;
     padding: 5px 10px;
 }
 
 #search-button {
-    background-color: #4CAF50; /* Example color */
+    background-color: #4CAF50; 
     color: white;
     border: none;
     padding: 8px;
@@ -96,14 +84,12 @@ header .search-bar img {
     background-color: #45a049;
 }
 
-
-
 .hero {
     background: url('/images/hero-bg.jpg') no-repeat center center/cover;
     color: #475d5b;
     height: 400px;
     text-align: center;
-    padding-top: 150px;
+    
     position: relative;
 }
 
@@ -131,23 +117,22 @@ header .search-bar img {
     z-index: 1;
 }
 
+header nav a button {
+  
+}
+
 .hero .btn {
-    position: relative;
-    display: inline-block;
-    color: #fffffe;
-    background:#00473e;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    transition: background 0.3s;
-    z-index: 1;
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  text-align: left; 
+  margin-top: 0; 
 }
 
 .hero .btn:hover {
     background: ;
 }
-
 
 section {
     padding: 40px 0;
@@ -186,6 +171,7 @@ section h2 {
     transform: translateY(-10px);
     cursor: pointer;
 }
+
 .product-card1 {
             color:#fffffe;
             background-color: ;#00473e
