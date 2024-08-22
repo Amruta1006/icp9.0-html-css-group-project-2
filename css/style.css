@@ -77,76 +77,6 @@ header nav a button:hover {
     background-color: #faae2b;
 }
 
-header {
-    background: #f2f7f5;
-    color: #00473e;
-    padding: 20px 40px;
-    border-bottom: #A6B1E1 3px solid;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-.headerparent {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.logo {
-    width: 130px;
-    margin-left: 20px;
-}
-
-.navbar {
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    align-items: center;
-}
-
-header nav a button {
-    background: #00473e;
-    color: #f2f7f5;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-header nav a button:hover {
-    background-color: #475d5b;
-    color: #f2f7f5;
-}
-
-.partnersparent {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.searchbar {
-    margin-left: 20px;
-    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
-    font-size: medium;
-    border: solid 1px grey;
-    width: 170px;
-    height: 35px;
-    padding-left: 10px;
-}
-
-.search {
-    height: 25px;
-    margin-left: -35px;
-    margin-top: 7px;
-    cursor: pointer;
-}
-
-.searchbar:hover {
-    cursor: pointer;
-    background-color: #faae2b;
-}
 
 
 .hero {
@@ -336,4 +266,47 @@ footer .quick-links a:hover {
 .social:hover{
     transform: scale(1.2);
 }
+
+        
+        .image1 {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        
+        .image1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f7f7f7;
+        }
+
+    
+        
+
+        
+        .image1 {
+            margin-right: 8px;
+            width: 30px;
+            height: 30px;
+            fill: white;
+        }
+
+        
+        .image1:hover {
+            background-color: #faae2b;
+        }
+
+        
+        .image1:active {
+            background-color: #1565C0; 
+            transform: scale(0.98); 
+        }
+
+        .image{
+            border:solid;
+        }
+
 
