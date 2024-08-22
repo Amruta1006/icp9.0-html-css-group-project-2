@@ -45,3 +45,9 @@ Plan to achieve by the end of project.
 ![Issues Page](./images/issues19.png)
 ![Issues Page](./images/issues20.png)
 ![Issues Page](./images/issues21.png)
+
+[Get Involved page Screenshot]
+![Get Involved Page](./images/get%20involved1.png)
+![Get Involved Page](./images/get%20involved2.png)
+![Get Involved Page](./images/get%20involved3.png)
+![Get Involved Page](./images/get%20involved4.png)
