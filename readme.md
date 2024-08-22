@@ -51,3 +51,11 @@ Plan to achieve by the end of project.
 ![Get Involved Page](./images/get%20involved2.png)
 ![Get Involved Page](./images/get%20involved3.png)
 ![Get Involved Page](./images/get%20involved4.png)
+
+
+[Resources Page Screenshot]
+![Resources Page](./images/resources1.png)
+![Resources Page](./images/resources2.png)
+![Resources Page](./images/resources3.png)
+![Resources Page](./images/resources4.png)
+![Resources Page](./images/resources5.png)
