@@ -23,6 +23,16 @@ Plan to achieve by the end of project.
 ![Home Page](./images/homepage5.png)
 ---
 
+[**About Page** Screenshot]
+
+![About Page](./images/about1.png)
+![About Page](./images/about2.png)
+![About Page](./images/about3.png)
+![About Page](./images/about4.png)
+![About Page](./images/about5.png)
+
+---
+
 [**Issues page** Screenshot]
 
 ![Issues Page](./images/issues1.png)

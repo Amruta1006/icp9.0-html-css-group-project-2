@@ -41,12 +41,19 @@ header nav a button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s
 }
 
+
 header nav a button:hover {
-    background-color: #475d5b;
-    color: #f2f7f5;
+    background-color:#faae2b;
+    color: #00473e;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s
 }
 
 .partnersparent {
@@ -308,5 +315,32 @@ footer .quick-links a:hover {
         .image{
             border:solid;
         }
+.home-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #00473e;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.home-button img {
+    width: 30px;
+    height: 30px;
+}
+
+.home-button:hover {
+    background-color: #475d5b;
+    transform: scale(1.1);
+}
+
+.home-button:active {
+    transform: scale(0.95);
+}
 
 

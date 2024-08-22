@@ -7,36 +7,31 @@ body {
     color: #00473e; /* Custom Dark Green */
     background-color: #f2f7f5; /* Light Background */
 }
-
-/* Header */
 header {
     background: #f2f7f5;
     color: #00473e;
-    padding: 10px 20px;
+    padding: 20px 40px;
     border-bottom: #A6B1E1 3px solid;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Flexbox for header content */
-.header-content {
+.headerparent {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-
-
-/* Logo */
-header .logo img {
-    height: 100px;
-    width: 200px;
-    margin-right: 20px;
+.logo {
+    width: 130px;
+    margin-left: 20px;
 }
 
-/* Navigation */
-header nav {
+.navbar {
     display: flex;
-    gap: 10px;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 header nav a button {
@@ -47,33 +42,83 @@ header nav a button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s
 }
 
+
 header nav a button:hover {
-    background-color: #475d5b;
-    color: #f2f7f5;
+    background-color:#faae2b;
+    color: #00473e;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s
+}
+
+.partnersparent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.searchbar {
+    margin-left: 20px;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    border: solid 1px grey;
+    width: 170px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+.search {
+    height: 25px;
+    margin-left: -35px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.searchbar:hover {
+    cursor: pointer;
+    background-color: #faae2b;
 }
 
 /* Hero Section */
 .hero-section {
-    background: url('/images/about-hero-bg.jpg') no-repeat center center/cover;
-    color: #f2f7f5;
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding-top: 150px;
-    position: relative;
+    
+    
 }
 
 .hero-section h1 {
     font-size: 50px;
-    margin: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .hero-section p {
     font-size: 20px;
-    margin-top: 10px;
+    margin-bottom: 20px;
 }
+
+.hero-section img {
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
 
 /* About Content */
 .about-content {
@@ -116,13 +161,17 @@ header nav a button:hover {
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
-    background: #f2f7f5;
+    background: #00473e;
+    color:#fffffe;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
 }
 
+
 .service:hover {
     transform: translateY(-10px);
+    background:#f2f7f5;
+    color: #00473e; /* Dark Green */
 }
 
 .service img {
@@ -131,14 +180,24 @@ header nav a button:hover {
 }
 
 .service h3 {
-    color: #00473e;
+    color:#fffffe;
     margin-top: 15px;
     font-size: 24px;
 }
 
+.service h3:hover {
+    color: #00473e; /* Dark Green */
+    margin-top: 15px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+    text-wight:40px;
+}
+
+
 .service p {
     margin-top: 10px;
     font-size: 16px;
+    
 }
 
 /* Footer */
@@ -238,4 +297,33 @@ footer .quick-links a:hover {
             background-color: #1565C0; 
             transform: scale(0.98); 
         }
+
+.home-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #00473e;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.home-button img {
+    width: 30px;
+    height: 30px;
+}
+
+.home-button:hover {
+    background-color: #475d5b;
+    transform: scale(1.1);
+}
+
+.home-button:active {
+    transform: scale(0.95);
+}
+
 
