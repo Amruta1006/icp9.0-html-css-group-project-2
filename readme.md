@@ -69,3 +69,6 @@ Plan to achieve by the end of project.
 ![Blog Page](./images/blog5.png)
 ![Blog Page](./images/blog6.png)
 ![Blog Page](./images/blog7.png)
+
+[Contact page Screenshot]
+![Contact Page](./images/contact1.png)
