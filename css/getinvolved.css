@@ -48,7 +48,7 @@ h1{
 .containerimg{
      display: flex;
      border: 5px;
-     background-color: rgb(152, 198, 238);
+     background-color: #00473e;
 }
 .text1{
      font-size:20px;
@@ -58,7 +58,7 @@ h1{
 .box{
      display: flex;
      border: 5px;
-     background-color: rgb(152, 198, 238);
+     background-color: #00473e;
 }
 .container2{
      border-radius: 5px;
@@ -69,8 +69,8 @@ h1{
 }
 .cam{
      border-radius: 5px;
-     height:500px;
-     width:600px;
+     height:505px;
+     width:605px;
 }
 
 h2{
@@ -122,7 +122,7 @@ footer{
 
 }
 .box1{
-     font-size: 20px;
+     font-size: 25px;
 
 }
 .box2{
@@ -137,10 +137,10 @@ footer{
 }
 h3{
      font-size: 40px;
-     color: red;
+     color: #00473e;
 }
 .newcontainer{
      display: flex;
-     border: 5px;
-     background-color: rgb(152, 198, 238);
+     border: 6px;
+     background-color:#00473e;
 }
