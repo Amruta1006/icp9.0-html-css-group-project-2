@@ -72,3 +72,7 @@ Plan to achieve by the end of project.
 
 [Contact page Screenshot]
 ![Contact Page](./images/contact1.png)
+
+[ Visit to website ]https://icp9-0-html-css-group-project-2-azure.vercel.app/
+                   https://quiet-boba-1a2443.netlify.app/
+
