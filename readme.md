@@ -103,9 +103,9 @@ We welcome contributions from the community to help us expand  and improve this 
     <td align="center"><a href="https://github.com/VaishnaviKolse"><img src="https://avatars.githubusercontent.com/VaishnaviKolse?v=4" width="100px;" alt=""/><br /><sub><b>Vaishnavi Kolse</b></sub></a></td>
     <td align="center"><a href="https://github.com/Amruta1006"><img src="https://avatars.githubusercontent.com/Amruta1006?v=4" width="100px;" alt=""/><br /><sub><b>Amruta Maskar</b></sub></a></td>
     <td align="center"><a href="https://github.com/manthansharadbire"><img src="https://avatars.githubusercontent.com/manthansharadbire?v=4" width="100px;" alt=""/><br /><sub><b>Manthan Bire</b></sub></a></td>
-    <td align="center"><a href="https://github.com/yogigadhe1803"><img src="https://avatars.githubusercontent.com/yogigadhe1803?v=4" width="100px;" alt=""/><br /><sub><b>Sakshi Gadhe</b></sub></a></td>
+    <td align="center"><a href="https://github.com/SakSak-del"><img src="https://avatars.githubusercontent.com/SakSak-del?v=4" width="100px;" alt=""/><br /><sub><b>Sakshi Gadhe</b></sub></a></td>
     <td align="center"><a href="https://github.com/Kadam9552"><img src="https://avatars.githubusercontent.com/Kadam9552?v=4" width="100px;" alt=""/><br /><sub><b>Aishwarya Kadam</b></sub></a></td>
-    <td align="center"><a href="https://github.com/katware02"><img src="https://avatars.githubusercontent.com/katware02?v=4" width="100px;" alt=""/><br /><sub><b>Aishwarya Kadam</b></sub></a></td>
+    <td align="center"><a href="https://github.com/katware02"><img src="https://avatars.githubusercontent.com/katware02?v=4" width="100px;" alt=""/><br /><sub><b>Ankita Katware</b></sub></a></td>
     
 </tr>
 </table>
